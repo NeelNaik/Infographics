@@ -1845,11 +1845,9 @@ March,Economy,EEA,UK,44,BRITISH AIRWAYS,Immigration Group
 April,Economy,UK,UK,27.5,FLYBE BRITISH EUROPEAN,Strategic Director Border
 April,Economy,UK,UK,25.98,FLYBE BRITISH EUROPEAN,Strategic Director Border
 March,Economy,UK,UK,284.43,BRITISH AIRWAYS,Strategic Director Border
-March,Economy,UK,UK,164.51,FLYBE BRITISH EUROPEAN,Strategic Director Border
-March,Economy,UK,UK,12.99,FLYBE BRITISH EUROPEAN,Strategic Director Border
-March,Economy,UK,UK,257.78,BRITISH AIRWAYS,Immigration Group
+March,Economy,UK,UK,164.51,FLYBE BRITISH EUROPEAN,Strategic Director
 April,Business Class,UK,EEA,641.61,AIR MALTA,Strategic Director Border
-April,Economy,UK,EEA,210.31,ESTONIAN AIR,Strategic Director Border
+April,EconomyEA,210.31,ESTONIAN AIR,Strategic Director Border
 April,Economy,UK,UK,116.01,FLYBE BRITISH EUROPEAN,Strategic Director Border
 March,Economy,UK,UK,209.59,BMI,Strategic Director Border
 March,Economy,UK,UK,323.43,BRITISH AIRWAYS,OSCT
