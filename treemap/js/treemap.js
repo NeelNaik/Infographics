@@ -129,7 +129,7 @@ function display(d) {
 			}
 		})
 		.append("title")
-		.text(function(d) { return d.name + " " + formatNumber(d.size); }); /*should be d.value*/
+		.text(function(d) { return d.name + " " + d.size; }); /*should be d.value*/
 
 	/* Adding a foreign object instead of a text object, allows for text wrapping */
 	g.append("foreignObject")
