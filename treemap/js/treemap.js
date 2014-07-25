@@ -116,7 +116,7 @@ function display(d) {
 		.attr("class", "child")
 		.call(rect)
 		.append("title")
-		.text(function(d) { return d.name + " " + d.size; });
+		.text(function(d) { return d.name + " " + formatCurrency(d.size); });
 
 	/* write parent rectangle */
 	g.append("rect")
