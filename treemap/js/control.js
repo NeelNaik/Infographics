@@ -12,7 +12,6 @@ $( document ).ready(function() {
 		var nested_data = d3.nest()
 			.key(function(d)  { return d.Region; })
 			.key(function(d)  { return d.Department; })
-			.key(function(d)  { return d.Total Allocation; })
 			.entries(csv_data);
 
 		// Creat the root node for the treemap
@@ -23,7 +22,7 @@ $( document ).ready(function() {
 		root.values = nested_data;
 
 		// Change the key names and children values from .next and add values for a chosen column to define the size of the blocks, e.g. a value
-		root = reSortRoot(root,"size_column");
+		root = reSortRoot(root,"Total Allocation");
 
 		// DEBUG
 		// $("#rawdata").html(JSON.stringify(root));
