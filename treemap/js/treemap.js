@@ -115,7 +115,7 @@ function display(d) {
 		.attr("class", "child")
 		.call(rect)
 		.append("title")
-		.text(function(d) { return d.name + " " + formatNumber(d.size); });
+		.text(function(d) { return d.name + " " + d.size; });
 
 	/* write parent rectangle */
 	g.append("rect")
