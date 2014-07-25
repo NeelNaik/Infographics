@@ -146,10 +146,10 @@ function display(d) {
 		.attr("dy", ".75em")
 		.html(function(d) { 
 			if (d.size) {
-				return d.name + " (" + formatNumber(d.size) + ")"; 
+				return d.name + " (" + (d.size) + ")"; 
 			} 
 			if (d.value > 0 && typeof(d.value) !== "undefined") {
-				return d.name + " (" + formatNumber(d.value) + ")"; 
+				return d.name + " (" + (d.value) + ")"; 
 			}
 			return d.name;
 		})
