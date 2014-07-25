@@ -10,6 +10,7 @@ var margin = {top: 20, right: 0, bottom: 0, left: 0},
     width = 820,
     height = 700 - margin.top - margin.bottom,
     formatNumber = d3.format(".2s"),
+    formatCurrency = d3.format("NGN.2d"),
     transitioning;
 
 /* create x and y scales */
@@ -146,10 +147,10 @@ function display(d) {
 		.attr("dy", ".75em")
 		.html(function(d) { 
 			if (d.size) {
-				return d.name + " (" + (d.size) + ")"; 
+				return d.name + " (" + formatCurrency(d.size) + ")"; 
 			} 
 			if (d.value > 0 && typeof(d.value) !== "undefined") {
-				return d.name + " (" + (d.value) + ")"; 
+				return d.name + " (" + formatCurrency(d.value) + ")"; 
 			}
 			return d.name;
 		})
